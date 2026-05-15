@@ -1,0 +1,422 @@
+> Task :gradle:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle:compileKotlin UP-TO-DATE
+> Task :gradle:compileJava NO-SOURCE
+> Task :gradle:compileGroovy NO-SOURCE
+> Task :gradle:pluginDescriptors UP-TO-DATE
+> Task :gradle:processResources UP-TO-DATE
+> Task :gradle:classes UP-TO-DATE
+> Task :gradle:jar UP-TO-DATE
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:compileFlutterBuildDebug UP-TO-DATE
+> Task :app:packJniLibsflutterBuildDebug UP-TO-DATE
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :flutter_plugin_android_lifecycle:preBuild UP-TO-DATE
+> Task :flutter_plugin_android_lifecycle:preDebugBuild UP-TO-DATE
+> Task :flutter_plugin_android_lifecycle:writeDebugAarMetadata UP-TO-DATE
+> Task :image_picker_android:preBuild UP-TO-DATE
+> Task :image_picker_android:preDebugBuild UP-TO-DATE
+> Task :image_picker_android:writeDebugAarMetadata UP-TO-DATE
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :app:cleanMergeDebugAssets
+> Task :app:mergeDebugShaders UP-TO-DATE
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :flutter_plugin_android_lifecycle:mergeDebugShaders UP-TO-DATE
+> Task :flutter_plugin_android_lifecycle:compileDebugShaders NO-SOURCE
+> Task :flutter_plugin_android_lifecycle:generateDebugAssets UP-TO-DATE
+> Task :flutter_plugin_android_lifecycle:mergeDebugAssets UP-TO-DATE
+> Task :image_picker_android:mergeDebugShaders UP-TO-DATE
+> Task :image_picker_android:compileDebugShaders NO-SOURCE
+> Task :image_picker_android:generateDebugAssets UP-TO-DATE
+> Task :image_picker_android:mergeDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets
+> Task :app:copyFlutterAssetsDebug
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :flutter_plugin_android_lifecycle:generateDebugResValues UP-TO-DATE
+> Task :flutter_plugin_android_lifecycle:generateDebugResources UP-TO-DATE
+> Task :flutter_plugin_android_lifecycle:packageDebugResources UP-TO-DATE
+> Task :image_picker_android:generateDebugResValues UP-TO-DATE
+> Task :image_picker_android:generateDebugResources UP-TO-DATE
+> Task :image_picker_android:packageDebugResources UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :flutter_plugin_android_lifecycle:extractDeepLinksDebug UP-TO-DATE
+> Task :flutter_plugin_android_lifecycle:processDebugManifest UP-TO-DATE
+> Task :image_picker_android:extractDeepLinksDebug UP-TO-DATE
+> Task :image_picker_android:processDebugManifest UP-TO-DATE
+> Task :app:processDebugMainManifest UP-TO-DATE
+> Task :app:outputDebugAppLinkSettings UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+> Task :flutter_plugin_android_lifecycle:compileDebugLibraryResources UP-TO-DATE
+> Task :flutter_plugin_android_lifecycle:parseDebugLocalResources UP-TO-DATE
+> Task :flutter_plugin_android_lifecycle:generateDebugRFile UP-TO-DATE
+> Task :image_picker_android:compileDebugLibraryResources UP-TO-DATE
+> Task :image_picker_android:parseDebugLocalResources UP-TO-DATE
+> Task :image_picker_android:generateDebugRFile UP-TO-DATE
+> Task :app:processDebugResources UP-TO-DATE
+> Task :flutter_plugin_android_lifecycle:javaPreCompileDebug UP-TO-DATE
+> Task :flutter_plugin_android_lifecycle:compileDebugJavaWithJavac UP-TO-DATE
+> Task :flutter_plugin_android_lifecycle:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :image_picker_android:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :image_picker_android:compileDebugKotlin UP-TO-DATE
+> Task :image_picker_android:javaPreCompileDebug UP-TO-DATE
+> Task :image_picker_android:compileDebugJavaWithJavac UP-TO-DATE
+> Task :image_picker_android:bundleLibCompileToJarDebug UP-TO-DATE
+
+> Task :app:compileDebugKotlin FAILED
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:102:28 Unresolved reference 'MAX_ANALYSIS_IMAGES'.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:638:25 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:638:30 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:638:36 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:638:44 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:638:56 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:638:59 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:638:69 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:638:71 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:638:75 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:638:88 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:638:90 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:638:94 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:638:104 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:638:114 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:638:121 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:639:25 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:639:29 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:639:40 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:639:42 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:639:52 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:639:55 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:639:60 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:639:66 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:639:68 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:639:72 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:639:76 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:639:84 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:639:92 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:639:94 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:639:103 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:639:105 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:639:111 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:640:25 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:640:28 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:640:36 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:640:43 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:640:50 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:640:52 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:640:57 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:640:58 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:640:61 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:640:66 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:640:68 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:640:74 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:640:79 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:640:87 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:640:89 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:640:97 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:640:100 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:640:108 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:640:114 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:640:118 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:642:25 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:642:29 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:642:32 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:642:41 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:642:48 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:642:55 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:642:60 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:642:71 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:642:74 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:642:80 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:642:82 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:642:92 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:642:94 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:642:100 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:642:103 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:642:110 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:644:25 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:644:33 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:644:34 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:645:25 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:645:33 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:645:41 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:646:25 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:646:27 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:646:34 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:646:38 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:646:44 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:646:56 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:646:59 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:646:66 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:647:25 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:647:27 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:647:36 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:647:38 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:648:25 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:648:27 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:648:35 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:648:45 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:648:47 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:649:25 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:649:27 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:649:34 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:649:36 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:649:41 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:649:44 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:649:47 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:650:25 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:650:31 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:650:39 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:651:25 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:651:25 Function declaration must have a name.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:652:46 Syntax error: Unexpected tokens (use ';' to separate expressions on the same line).
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:653:76 Syntax error: Unexpected tokens (use ';' to separate expressions on the same line).
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:655:29 Syntax error: Expecting an element.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:655:30 Syntax error: Unexpected tokens (use ';' to separate expressions on the same line).
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:656:41 Syntax error: Unexpected tokens (use ';' to separate expressions on the same line).
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:657:36 Syntax error: Unexpected tokens (use ';' to separate expressions on the same line).
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:658:40 Syntax error: Unexpected tokens (use ';' to separate expressions on the same line).
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:659:125 Syntax error: Unexpected tokens (use ';' to separate expressions on the same line).
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:661:29 Syntax error: Expecting an element.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:661:30 Syntax error: Unexpected tokens (use ';' to separate expressions on the same line).
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:662:49 Syntax error: Unexpected tokens (use ';' to separate expressions on the same line).
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:665:25 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:665:33 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:665:34 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:666:25 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:666:33 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:666:41 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:667:25 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:667:27 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:667:34 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:667:38 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:667:48 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:667:57 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:667:59 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:667:65 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:668:25 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:668:27 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:668:36 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:668:38 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:669:25 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:669:27 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:669:35 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:669:45 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:669:47 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:670:25 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:670:27 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:670:34 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:670:36 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:670:42 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:670:45 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:670:47 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:671:25 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:671:31 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:671:39 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:672:25 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:672:25 Function declaration must have a name.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:673:46 Syntax error: Unexpected tokens (use ';' to separate expressions on the same line).
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:674:80 Syntax error: Unexpected tokens (use ';' to separate expressions on the same line).
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:676:29 Syntax error: Expecting an element.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:676:30 Syntax error: Unexpected tokens (use ';' to separate expressions on the same line).
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:677:41 Syntax error: Unexpected tokens (use ';' to separate expressions on the same line).
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:678:36 Syntax error: Unexpected tokens (use ';' to separate expressions on the same line).
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:679:40 Syntax error: Unexpected tokens (use ';' to separate expressions on the same line).
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:680:85 Syntax error: Unexpected tokens (use ';' to separate expressions on the same line).
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:682:29 Syntax error: Expecting an element.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:682:30 Syntax error: Unexpected tokens (use ';' to separate expressions on the same line).
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:683:49 Syntax error: Unexpected tokens (use ';' to separate expressions on the same line).
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:685:25 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:685:28 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:685:41 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:686:1 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:686:23 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:687:1 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:687:30 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:688:1 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:688:66 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:689:1 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:689:29 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:690:1 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:690:38 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:691:1 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:691:40 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:692:1 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:692:28 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:693:1 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:693:14 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:694:1 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:694:15 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:694:16 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:694:31 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:694:32 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:694:35 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:695:1 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:695:17 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:695:18 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:695:59 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:695:60 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:695:61 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:696:1 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:696:17 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:696:18 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:696:73 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:696:74 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:697:1 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:697:17 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:698:1 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:698:15 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:698:16 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:698:26 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:698:27 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:698:29 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:698:30 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:698:34 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:698:35 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:698:36 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:699:1 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:699:15 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:699:16 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:699:21 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:699:22 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:699:27 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:700:1 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:700:15 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:700:16 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:700:25 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:700:26 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:700:29 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:701:1 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:701:17 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:701:18 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:701:108 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:701:109 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:701:110 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:702:1 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:702:17 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:702:18 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:702:78 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:702:79 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:703:1 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:703:17 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:704:1 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:704:15 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:704:16 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:704:34 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:704:35 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:704:37 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:704:38 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:704:121 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:704:122 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:705:1 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:705:14 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:706:1 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:707:1 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:707:23 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:708:1 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:708:30 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:709:1 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:709:61 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:710:1 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:710:29 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:711:1 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:711:38 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:712:1 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:712:40 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:713:1 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:713:28 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:714:1 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:714:14 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:715:1 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:715:15 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:715:16 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:715:31 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:715:32 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:715:35 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:716:1 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:716:17 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:716:18 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:716:63 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:716:64 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:716:65 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:717:1 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:717:17 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:717:18 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:717:59 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:717:60 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:718:1 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:718:17 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:719:1 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:719:15 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:719:16 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:719:26 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:719:27 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:719:29 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:719:30 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:719:33 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:719:34 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:719:35 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:720:1 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:720:15 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:720:16 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:720:21 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:720:22 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:720:27 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:721:1 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:721:15 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:721:16 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:721:25 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:721:26 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:721:29 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:722:1 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:722:17 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:722:18 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:722:68 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:722:69 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:722:70 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:723:1 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:723:17 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:723:18 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:723:79 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:723:80 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:724:1 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:724:17 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:725:1 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:725:15 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:725:16 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:725:34 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:725:35 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:725:37 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:725:38 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:725:138 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:725:139 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:726:1 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:726:14 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:727:1 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:727:13 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:727:16 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:727:17 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:727:27 Syntax error: Expecting member declaration.
+e: file:///home/s299259068/%C3%81rea%20de%20Trabalho/Projetos/2026/gemma_challenge/hansen_guard_app/android/app/src/main/kotlin/com/example/hansen_guard/MainActivity.kt:727:28 Syntax error: Expecting member declaration.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileDebugKotlin'.
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Compilation error. See log for more details
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 1s
+54 actionable tasks: 4 executed, 50 up-to-date
