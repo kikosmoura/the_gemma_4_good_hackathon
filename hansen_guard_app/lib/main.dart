@@ -10,6 +10,9 @@ import 'package:flutter/services.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:path_provider/path_provider.dart';
 
+// Flutter entrypoint for the offline Hansen Guard app. The UI layer collects
+// the photo protocol and questionnaire, then delegates Gemma 4 execution to
+// the native Android LiteRT-LM bridge further down in this file.
 void main() {
   runApp(const HansenGuardApp());
 }
