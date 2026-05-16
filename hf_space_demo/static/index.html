@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hansen Guard Demo</title>
+    <link rel="stylesheet" href="/static/styles.css" />
+  </head>
+  <body>
+    <main class="demo-shell">
+      <section class="phone" aria-label="Hansen Guard mobile demo">
+        <div class="phone-top">
+          <div>
+            <p class="eyebrow">Hansen Guard</p>
+            <h1>Community screening</h1>
+          </div>
+          <span class="language-pill" title="Demo language">EN</span>
+        </div>
+
+        <div id="modelStatus" class="model-status model-status-loading">
+          <span class="status-dot"></span>
+          <span>Loading Gemma 4</span>
+        </div>
+
+        <nav class="steps" aria-label="Steps">
+          <button class="step active" data-step="patient" type="button">Patient</button>
+          <button class="step" data-step="photo" type="button">Image</button>
+          <button class="step" data-step="questions" type="button">Signs</button>
+          <button class="step" data-step="result" type="button">Result</button>
+        </nav>
+
+        <form id="triageForm" class="screen-stack">
+          <section class="screen active" data-screen="patient">
+            <div class="panel">
+              <label>
+                <span>Name</span>
+                <input id="patientName" name="patientName" value="Demo patient" autocomplete="off" />
+              </label>
+              <div class="field-grid">
+                <label>
+                  <span>Age</span>
+                  <input id="patientAge" name="patientAge" type="number" min="0" max="120" value="42" />
+                </label>
+                <label>
+                  <span>Sex</span>
+                  <select id="patientSex" name="patientSex">
+                    <option value="other">Other</option>
+                    <option value="female">Female</option>
+                    <option value="male">Male</option>
+                  </select>
+                </label>
+              </div>
+            </div>
+          </section>
+
+          <section class="screen" data-screen="photo">
+            <div class="case-header">
+              <div>
+                <p class="eyebrow">Local samples</p>
+                <h2>Demonstration image</h2>
+              </div>
+              <span id="caseCount" class="count-pill">0</span>
+            </div>
+            <div id="caseGrid" class="case-grid" aria-live="polite"></div>
+          </section>
+
+          <section class="screen" data-screen="questions">
+            <div class="panel compact">
+              <div class="toggle-row">
+                <span>Numbness in the patch</span>
+                <input id="hasNumbness" type="checkbox" />
+              </div>
+              <div class="toggle-row">
+                <span>Skin color change</span>
+                <input id="changedColor" type="checkbox" checked />
+              </div>
+              <div class="toggle-row">
+                <span>Contact with a confirmed case</span>
+                <input id="hasContact" type="checkbox" />
+              </div>
+              <div class="toggle-row">
+                <span>Nerve pain, tingling, or shock</span>
+                <input id="hasNervePain" type="checkbox" />
+              </div>
+              <div class="toggle-row">
+                <span>Muscle weakness</span>
+                <input id="hasWeakness" type="checkbox" />
+              </div>
+              <div class="toggle-row">
+                <span>Dryness or hair loss</span>
+                <input id="hasDryness" type="checkbox" />
+              </div>
+              <div class="toggle-row">
+                <span>More than one lesion</span>
+                <input id="hasMultiple" type="checkbox" />
+              </div>
+              <div class="toggle-row">
+                <span>Painless wound or burn</span>
+                <input id="hasWound" type="checkbox" />
+              </div>
+
+              <label class="duration-field">
+                <span>Duration</span>
+                <select id="duration">
+                  <option>Less than 3 months</option>
+                  <option selected>3 to 12 months</option>
+                  <option>More than 12 months</option>
+                </select>
+              </label>
+
+              <label>
+                <span>Notes</span>
+                <textarea id="notes" rows="3" placeholder="Example: tingling, dry skin, recent growth."></textarea>
+              </label>
+            </div>
+          </section>
+
+          <section class="screen" data-screen="result">
+            <div id="resultPanel" class="result-panel empty">
+              <h2>Result</h2>
+              <p>Select an image, fill in the signs, and run the analysis.</p>
+            </div>
+          </section>
+        </form>
+
+        <div class="bottom-bar">
+          <button id="backButton" class="secondary-button" type="button">Back</button>
+          <button id="nextButton" class="secondary-button" type="button">Next</button>
+          <button id="analyzeButton" class="primary-button" type="button" disabled>Analyze with Gemma 4</button>
+        </div>
+      </section>
+
+      <aside class="judge-panel" aria-label="Demo information">
+        <div class="side-block">
+          <p class="eyebrow">Runtime</p>
+          <h2>Gemma 4 via llama.cpp</h2>
+          <dl>
+            <div>
+              <dt>Model</dt>
+              <dd id="modelName">unsloth/gemma-4-E2B-it-GGUF</dd>
+            </div>
+            <div>
+              <dt>Quantization</dt>
+              <dd id="modelFile">UD-Q4_K_XL GGUF</dd>
+            </div>
+            <div>
+              <dt>Status</dt>
+              <dd id="sideStatus">Starting</dd>
+            </div>
+          </dl>
+        </div>
+        <div class="side-block">
+          <h2>Technical Note for Judges</h2>
+          <p>The primary implementation of Hansen Guard is a mobile application optimized for on-device inference using <strong>Gemma 4 with LiteRT</strong>. This enables private, offline screening directly on edge devices, with smartphones being the platform we primarily targeted in this project.</p>
+          <p>To facilitate the evaluation process, this web-based Hugging Face Space was created as a simplified demo. Since LiteRT is heavily optimized for mobile and on-device environments, this web version uses <strong>Gemma 4 via llama.cpp (GGUF)</strong> to provide a functional browser-based preview.</p>
+          <p>Additionally, we replaced the live camera input with a <strong>curated gallery of real-world cases</strong> so judges can immediately test the model’s screening logic and multimodal capabilities without requiring a physical Android device or local environment setup.</p>
+        </div>
+        <div class="side-block safety">
+          <h2>Clinical note</h2>
+          <p>This demo supports community screening and does not replace in-person clinical assessment, neurological examination, or medical decision-making.</p>
+        </div>
+      </aside>
+    </main>
+    <script src="/static/app.js" type="module"></script>
+  </body>
+</html>
